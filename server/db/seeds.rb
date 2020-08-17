@@ -1,0 +1,5 @@
+User.find_or_create_by(name: 'Mike Nelson', color: '2F19EF')
+User.find_or_create_by(name: 'Tom Servo', color: 'E22BA5')
+User.find_or_create_by(name: 'Crow', color: '767D0F')
+Room.find_or_create_by(name: 'Hobgoblins')
+Room.find_or_create_by(name: 'the Final Sacrifice')
