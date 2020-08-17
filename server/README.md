@@ -1,18 +1,18 @@
 # README
 
-* Project setup
+## Project setup
 - Use ruby-2.6.3
 `bundle install --path vendor/bundle`
 
-* Database creation/initialization
+## Database creation/initialization
 `rake db:drop`
 `rake db:create`
 `rake db:migrate`
-`rake db:seed`
+`rake db:seed` - db seeded with 3 users and 2 rooms.
 
-* How to run the test suite
+## How to run the test suite
 `rake db:test:prepare`
 `rspec`
 
-* Start local server (runs on port 3001)
+## Start local server (runs on port 3001)
 `rails s`
